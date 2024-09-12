@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #333;
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff8c00;
+}
+
+/* Intro Section */
+.intro-section {
+    background-image: url('images/cover-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.intro-section h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.intro-section .tagline {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #ff8c00;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cta-btn:hover {
+    background-color: darkorange;
+}
+
+/* Feature Section */
+.feature-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.feature h3 {
+    margin-top: 10px;
+}
+
+/* About Section */
+.about-section {
+    background-color: #add8e6;
+    padding: 50px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Video Section */
+.video-section {
+    padding: 50px;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+video {
+    border-radius: 10px;
+}
